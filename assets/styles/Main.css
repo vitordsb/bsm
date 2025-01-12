@@ -6,6 +6,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
+    @media (max-width: 768px) {
+        height: 80vh;
+        margin-bottom: 0;
+        padding: 10px;
+    }
 }
 .main {
     display: flex;
@@ -13,6 +18,11 @@
     gap: 50px;
     height: 100vh;
     align-items: center;
+    @media (max-width: 768px) {
+        height: 100vh;
+        gap: 0;
+        flex-direction: column;
+    }
 }
 
 .imagem img {
@@ -29,6 +39,10 @@
     padding: 50px;
     width: 1200px;
     border-radius: 20px;
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 20px;
+    }
 }
 .saudacoes .botaoEntreEmContato {
     display: flex;
@@ -40,16 +54,21 @@
     background-color: #4b9a99;
     color: #fff;
     font-size: 20px;
-    cursor: pointer;
-}
-
-.botaoEntreEmContato button {
     display: flex;
+    cursor: pointer;
     gap: 10px;
     transition: .3s;
-    align-items: center;
+    align-items: center;    
     img {
         width: 30px;
+    }
+    @media (max-width: 768px) {
+        font-size: 15px;
+        border: none;
+        justify-content: center;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-top: 10px;
     }
 }
 .botaoEntreEmContato button:hover {
@@ -60,9 +79,15 @@
     font-size: 40px;
     text-align: justify;
     font-weight: bolder;
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
 }
 
 .saudacoes p {
     font-size: 25px;
     text-align: justify;
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
 }

@@ -6,10 +6,26 @@
     height: 6vh;
     background-color: #4b9a99;
     color: white;
+    @media (max-width: 768px) {
+        height: auto;
+        position: fixed;
+        width: 100%;
+        gap: 10px;
+        padding: 10px 0;
+        flex-direction: column;        
+    }
+}
+
+.header h1 {
+    font-size: 20px;
 }
 .headerLinks {
     display: flex;
-    gap: 2rem;  
+    gap: 2rem;
+    @media (max-width: 768px) {
+       gap: 15px;
+       align-items: center;       
+    }
 }
 .headerLinks a {
     font-weight: bolder;
@@ -17,4 +33,7 @@
     text-transform: uppercase;
     color: var(--text-color);
     cursor: pointer;
+    @media (max-width: 768px) {
+        font-size: 10px;        
+    }
 }

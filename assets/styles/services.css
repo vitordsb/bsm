@@ -3,15 +3,26 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    @media (max-width: 768px) {
+        height: auto;
+        padding: 20px;
+    }
 }
 
 .titleServices {
     margin-top: 20px;
+    @media (max-width: 768px) {
+        margin-top: 0;
+    }
 }
 
 .mainServices {
     display: flex;
     justify-content: center;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        height: auto;
+    }
 }   
 
 .titleServices h1 {
@@ -19,6 +30,9 @@
     font-weight: bolder;
     font-size: 50px;
     color: #4B9A99;
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
 }
 .conteudoServices {
     display: flex;
@@ -31,6 +45,10 @@
     align-items: center;
     gap: 50px;
     display: flex;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        height: auto;
+    }
 }
 .card {
     background: #fff;
