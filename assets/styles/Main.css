@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./public/background.jpg'); ;
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
