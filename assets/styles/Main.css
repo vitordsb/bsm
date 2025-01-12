@@ -44,6 +44,10 @@
         padding: 20px;
     }
 }
+.saudacoes span {
+    color: #4b9a99;
+    font-weight: bolder;
+}
 .saudacoes .botaoEntreEmContato {
     display: flex;
 }
@@ -85,7 +89,7 @@
 }
 
 .saudacoes p {
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
     @media (max-width: 768px) {
         font-size: 20px;
