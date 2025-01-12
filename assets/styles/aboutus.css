@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/public/sla.jpg'); ;
+    background-image: url('./public/sla.jpg'); ;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
