@@ -1,0 +1,28 @@
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 20px;
+}
+.backgroundAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/sla.jpg'); ;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mainAbout {
+    background-color: rgba(255, 255, 255, 0.814);
+    height: 700px;
+    width: 1600px;
+    border-radius: 30px;
+}

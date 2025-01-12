@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+    height: 6vh;
+    background-color: #4b9a99;
+    color: white;
+}
+.headerLinks {
+    display: flex;
+    gap: 2rem;  
+}
+.headerLinks a {
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-color);
+    cursor: pointer;
+}
