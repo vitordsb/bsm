@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./public/logoBSM.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="./public/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/styles/Header.css">
     <link rel="stylesheet" href="./globals.css">
     <link rel="stylesheet" href="./assets/styles/Main.css">
@@ -18,20 +18,23 @@
         </div>
         <div class="headerRightSide">
             <div class="headerLinks">
-                <a href="index.html">Home</a>|
-                <a href="sobre.html">Serviços</a>|
-                <a href="login.html">Quem somos nós?</a>|
-                <a href="contato.html">Contato</a>
+                <a href="#home">Home</a> |
+                <a href="#services">Serviços</a> |
+                <a href="#aboutus">Quem somos nós?</a> |
+                <a href="#contact">Contato</a>
             </div>
         </div>
     </header>
-    <main class="background" style="background-image: url('./public/sla.jpeg');">
+    <main id="home" class="background" style="background-image: url('./public/fotobeatriz.jpeg');">
         <section class="main">
+            <div class="imagem">
+                <img src="./public/logo.png" alt="">
+            </div>
             <div class="saudacoes">
                 <h1>Está precisando de serviços capacitados na area de Topografia? Solicite agora um orçamento!</h1>
-                <p>A <span>BSM - Topografia</span> é uma empresa especializada em regularização e soluções topográficas, com experiência e dedicação para oferecer o
-                suporte completo que seu projeto precisa. Conte conosco para garantir precisão, eficiência e qualidade em todas as
-                etapas!</p>
+                <p>Aqui é encontrado grandes resultados, foco, dedicação e agilidade com maior
+                precisão em nossos serviços, preservando valores como responsabilidade e
+                confiança.</p>
                 <div class="botaoEntreEmContato">
                     <button><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-whatsapp"
                         viewBox="0 0 16 16">
@@ -42,7 +45,7 @@
             </div>
         </section>
     </main>
-    <section class="services">
+    <section class="services" id="services">
         <div class="titleServices">
             <h1>Nossos Serviços</h1>
         </div>
@@ -52,9 +55,10 @@
                     <div class="card">
                         <img src="./public/planimetrico.jpg" alt="Imagem do Card">
                         <div class="card-content">
-                            <h2 class="card-title">Planimetrico</h2>
+                            <h2 class="card-title">Planimétrico</h2>
                             <p class="card-description">
-                                Desenvolvemos soluções planimétricas precisas e personalizadas, garantindo o sucesso do seu projeto.
+                                Medições de divisas e construções, memorial descritivo, ideal para usucapião, retificação e
+                                questões judiciais.
                             </p>
                             <a href="#" class="card-button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
                                     fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -68,8 +72,8 @@
                         <div class="card-content">
                             <h2 class="card-title">Planialtimétrico</h2>
                             <p class="card-description">
-                                Elaboramos levantamentos planialtimétricos detalhados, assegurando informações precisas para seu planejamento e
-                                execução.
+                                Medições mais detalhas com níveis, variações de elevação, essencial para projetos para que o
+                                engenheiros e arquitetos possam planejar a construção.
                             </p>
                             <a href="#" class="card-button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
                                     fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -85,8 +89,8 @@
                         <div class="card-content">
                             <h2 class="card-title">Usucapião</h2>
                             <p class="card-description">
-                                Transforme sua posse em propriedade definitiva com nosso serviço de usucapião, cuidando de todo o processo legal com
-                                agilidade e confiança!
+                                Tem a finalidade de registrar o imóvel no cartório e garantir a propriedade, fornecemos o
+                                material técnico necessário para usucapião, planta, memorial descritivo, TRT.
                             </p>
                             <a href="#" class="card-button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-whatsapp"
                                 viewBox="0 0 16 16">
@@ -98,10 +102,10 @@
                     <div class="card">
                             <img src="./public/agrimensua.jpg" alt="Imagem do Card">
                             <div class="card-content">
-                                <h2 class="card-title">Desdobro</h2>
+                                <h2 class="card-title">Georeferencimento</h2>
                                 <p class="card-description">
-                                    Transformamos uma área em várias, com planejamento preciso e regularização completa para atender às
-                                    suas necessidades!
+                                    O georreferenciamento é um processo que permite a identificação exata da localização de um
+                                    objeto, utilizando sistemas de coordenadas geográficas.
                                 </p>
                                 <a href="#" class="card-button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-whatsapp"
                                     viewBox="0 0 16 16">
@@ -115,8 +119,7 @@
                             <div class="card-content">
                                 <h2 class="card-title">Retificação de imóveis</h2>
                                 <p class="card-description">
-                                    Especialistas em retificação de imóveis: ajustamos e regularizamos sua propriedade com agilidade, precisão e total
-                                    segurança jurídica!
+                                    A correção da descrição perimétrica no cartórios de imóveis
                                 </p>
                                 <a href="#" class="card-button"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-whatsapp"
                                     viewBox="0 0 16 16">
@@ -138,7 +141,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="footer" id="contact">
     </footer>
     <!-- Final Rodapé da página principal -->
 </body>
