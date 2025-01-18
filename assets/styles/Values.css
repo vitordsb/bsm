@@ -1,0 +1,51 @@
+.values {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mainValues {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardValues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: auto;
+}
+
+.cardsValues {
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px black;
+    background-color: #4E9F9D;
+    padding: 25px;
+}
+
+.titleValues h1 { 
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4E9F9D;
+    font-size: 55px;
+}
+
+.cardsValues h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: white;
+}
+
+.cardsValues p {
+    color: white;
+    font-size: 25px;
+}
