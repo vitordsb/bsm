@@ -1,6 +1,6 @@
 .background {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 70vh;
     background-repeat: no-repeat;
@@ -8,6 +8,7 @@
     margin-bottom: 20px;
     @media (max-width: 768px) {
         height: 80vh;
+        justify-content: center;
         margin-bottom: 0;
         padding: 10px;
     }
@@ -35,9 +36,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgba(255, 255, 255, 0.895);
     padding: 20px;
-    width: 1000px;
+    width: 800px;
     border-radius: 20px;
     @media (max-width: 768px) {
         width: 100%;
@@ -50,6 +50,9 @@
 }
 .saudacoes .botaoEntreEmContato {
     display: flex;
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
 }
 .saudacoes .botaoEntreEmContato button {
     padding: 10px 20px;
@@ -57,7 +60,7 @@
     border-radius: 10px;
     background-color: #4b9a99;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     cursor: pointer;
     gap: 10px;
@@ -67,7 +70,7 @@
         width: 30px;
     }
     @media (max-width: 768px) {
-        font-size: 15px;
+        font-size: 25px;
         border: none;
         justify-content: center;
         padding: 5px 10px;
@@ -81,9 +84,12 @@
 
 .saudacoes h1 {
     font-size: 40px;
-    text-align: justify;
+
+    text-align: start;
+    color: white;
     font-weight: bolder;
     @media (max-width: 768px) {
+        text-align: center;
         font-size: 30px;
     }
 }
