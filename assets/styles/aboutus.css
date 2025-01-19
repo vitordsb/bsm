@@ -60,6 +60,7 @@
     color: white;
     @media (max-width: 768px) {
         width: auto;
+        text-align: center;
         padding: 5px;
         font-size: 20px;
     }

@@ -76,7 +76,11 @@
 }
 .botaoEntreEmContato button:hover {
     background-color: #1b7596;
-}   
+}  
+
+.botaoEntreEmContato a {
+    color: white;
+}
 
 .saudacoes h1 {
     font-size: 40px;
