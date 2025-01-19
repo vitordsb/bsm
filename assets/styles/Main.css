@@ -2,7 +2,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 70vh;
+    height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     @media (max-width: 768px) {
@@ -43,10 +43,6 @@
         padding: 20px;
     }
 }
-.saudacoes span {
-    color: #4b9a99;
-    font-weight: bolder;
-}
 .saudacoes .botaoEntreEmContato {
     display: flex;
     @media (max-width: 768px) {
@@ -57,7 +53,7 @@
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    background-color: #4b9a99;
+    background-color: #4494b1;
     color: #fff;
     font-size: 30px;
     display: flex;
@@ -78,7 +74,7 @@
     }
 }
 .botaoEntreEmContato button:hover {
-    background-color: #377e7d;
+    background-color: #1b7596;
 }   
 
 .saudacoes h1 {

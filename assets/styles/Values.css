@@ -27,14 +27,14 @@
     width: 500px;
     border-radius: 15px;
     box-shadow: 1px 2px 3px black;
-    background-color: #4E9F9D;
+    background-color: #4494b1;
     padding: 25px;
 }
 
 .titleValues h1 { 
     text-align: center;
     margin-bottom: 30px;
-    color: #4E9F9D;
+    color: #4494b1;
     font-size: 55px;
 }
 
@@ -42,10 +42,11 @@
     text-align: center;
     margin-bottom: 10px;
     font-size: 50px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .cardsValues p {
     color: white;
-    font-size: 25px;
+    font-size: 23px;
+    text-align: center;
 }

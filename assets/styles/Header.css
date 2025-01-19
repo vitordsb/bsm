@@ -5,7 +5,7 @@
     align-items: center;
     padding: 0 2rem;
     height: 6vh;
-    background: linear-gradient(100deg, #4B9A99 35%, #43b3b1 100%);
+    background-color: #4494b1;
     color: white;
     @media (max-width: 768px) {
         height: auto;
@@ -22,6 +22,7 @@
 }
 .headerLinks {
     display: flex;
+    align-items: center;
     gap: 2rem;
     @media (max-width: 768px) {
        gap: 15px;

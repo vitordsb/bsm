@@ -1,17 +1,48 @@
 .footer {
-    height: 150px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #434343;
     color: #fff;
-    gap: 20px;
+    padding: 20px;
     font-size: 20px;
+}
+
+.direitos{
+    display: flex;
+    width: 800px;
 }
 
 .infos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 800px;
     gap: 50px;
+}
+
+.location {
+    border-radius: 10px;
+    background-color: #d2d2d2;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.location h2, .location p {
+    color: black;
+}
+.location .mapa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.contatos {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
