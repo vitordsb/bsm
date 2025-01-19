@@ -5,6 +5,10 @@
     text-align: center;
     justify-content: center;
     gap: 20px;
+    @media (max-width: 768px) {
+        height: auto;
+        padding: 20px;
+    }
 }
 
 .mainValues {
@@ -20,6 +24,10 @@
     gap: 20px;
     padding: 20px;
     width: auto;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 10px;
+    }
 }
 
 .cardsValues {
@@ -29,6 +37,11 @@
     box-shadow: 1px 2px 3px black;
     background-color: #4494b1;
     padding: 25px;
+    @media (max-width: 768px) {
+            padding: 20px;
+            width: auto;
+            height: auto;
+        }
 }
 
 .titleValues h1 { 

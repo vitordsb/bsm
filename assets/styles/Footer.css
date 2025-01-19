@@ -7,19 +7,39 @@
     color: #fff;
     padding: 20px;
     font-size: 20px;
+    @media (max-width: 768px) {
+        justify-content: center;
+        height: auto;
+        align-items: center;
+        width: auto;
+        padding: 10px;
+        flex-direction: column;
+    }
 }
 
 .direitos{
     display: flex;
     width: 800px;
+    @media (max-width: 768px) {
+            height: auto;
+            width: auto;
+            justify-content: center;
+            flex-direction: column;
+        }
 }
 
 .infos {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
+    width: auto;
     gap: 50px;
+    @media (max-width: 768px) {
+            height: auto;
+            width: auto;
+            padding: 20px;
+            flex-direction: column;
+        }
 }
 
 .location {
@@ -29,6 +49,11 @@
     padding: 20px;
     align-items: center;
     gap: 10px;
+    @media (max-width: 768px) {
+            height: auto;
+            padding: 10px;
+            flex-direction: column;
+        }
 }
 .location h2, .location p {
     color: black;
@@ -41,8 +66,19 @@
 }
 
 .contatos {
-    width: 300px;
+    align-items: center;
+    width: 400px;
     display: flex;
-    flex-direction: column;
     gap: 10px;
+    @media (max-width: 768px) {
+            height: auto;
+            padding: 10px;
+            flex-direction: column;
+        }
+}
+
+.contatos img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
 }

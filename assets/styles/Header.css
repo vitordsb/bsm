@@ -9,8 +9,7 @@
     color: white;
     @media (max-width: 768px) {
         height: auto;
-        position: fixed;
-        width: 100%;
+        width: auto;
         gap: 10px;
         padding: 10px 0;
         flex-direction: column;        

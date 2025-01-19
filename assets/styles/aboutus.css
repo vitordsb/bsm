@@ -4,6 +4,10 @@
     height: auto;
     text-align: center;
     gap: 20px;
+    @media (max-width: 768px) {
+        height: auto;
+        width: auto;
+    }
 }
 .backgroundAbout {
     display: flex;
@@ -12,6 +16,11 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
+    @media (max-width: 768px) {
+        height: auto;
+        width: auto;
+        padding: 10px;
+    }
 }
 .mainAbout {
     display: flex;
@@ -25,11 +34,20 @@
     height: 500px;
     width: 1400px;
     border-radius: 30px;
+    @media (max-width: 768px) {
+        height: auto;
+        width: auto;
+        padding: 20px;
+    }
 }
 
 .otherTitle h1 {
     font-size: 50px;
     color: #ffffff;
+    @media (max-width: 768px) {
+        font-size: 30px;
+        width: auto;
+    }
 }
 
 .textAbout p{
@@ -40,4 +58,9 @@
     border-radius: 30px;
     padding: 20px;
     color: white;
+    @media (max-width: 768px) {
+        width: auto;
+        padding: 5px;
+        font-size: 20px;
+    }
 }
