@@ -37,11 +37,17 @@
     box-shadow: 1px 2px 3px black;
     background-color: #4494b1;
     padding: 25px;
+    transition: .3s;
     @media (max-width: 768px) {
             padding: 20px;
             width: auto;
             height: auto;
         }
+    @media (max-width: 1600px) {
+        padding: 10px;
+        width: 420px;
+        height: 280px;
+    }
 }
 
 .titleValues h1 { 
@@ -59,7 +65,12 @@
 }
 
 .cardsValues p {
+    transition: .3s;
     color: white;
     font-size: 23px;
     text-align: center;
+    @media (max-width: 1600px) {
+        font-size: 20px;
+        padding: 10px;
+    }
 }

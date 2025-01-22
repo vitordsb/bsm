@@ -14,10 +14,14 @@
         padding: 10px 0;
         flex-direction: column;        
     }
+    
 }
 
 .header h1 {
     font-size: 35px;
+    @media (max-width: 1600px) {
+        font-size: 25px;
+    }
 }
 .headerLinks {
     display: flex;
@@ -27,6 +31,7 @@
        gap: 15px;
        align-items: center;       
     }
+    
 }
 .headerLinks a {
     font-weight: bolder;
@@ -35,5 +40,8 @@
     cursor: pointer;
     @media (max-width: 768px) {
         font-size: 12px;        
+    }
+    @media (max-width: 1600px) {
+        font-size: 15px;
     }
 }

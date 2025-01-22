@@ -3,6 +3,7 @@
     height: auto;
     padding: 50px;
     display: flex;
+    transition: .3s;
     flex-direction: column;
     text-align: center;
     @media (max-width: 768px) {
@@ -12,6 +13,7 @@
 }
 
 .titleServices {
+    transition: .3s;
     margin-top: 20px;
     @media (max-width: 768px) {
         margin-top: 0;
@@ -20,6 +22,7 @@
 
 .mainServices {
     display: flex;
+    transition: .3s;
     justify-content: center;
     @media (max-width: 768px) {
         flex-direction: column;
@@ -31,6 +34,7 @@
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
+    transition: .3s;
     color: #4494b1;
     @media (max-width: 768px) {
         font-size: 30px;
@@ -39,6 +43,7 @@
 .conteudoServices {
     flex-direction: column;
     display: flex;
+    transition: .3s;
     width: 1620px;
     @media (max-width: 768px) {
         width: auto;
@@ -48,9 +53,11 @@
 .OtherCardServices {
     width: auto;
     margin-top: 20px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
     align-items: center;
     display: flex;
+    transition: .3s;
     @media (max-width: 768px) {
             flex-direction: column;
             height: auto;
@@ -59,7 +66,8 @@
 }
 .cardServices {
     width: auto;
-    justify-content: space-between;
+    transition: .3s;
+    justify-content: center;
     display: flex;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -71,15 +79,18 @@
     }
 }
 .card {
+    transition: .3s;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     height: auto;
     width: 450px;
-    transition: transform 0.3s;
     @media (max-width: 768px) {
         width: auto;
+    }
+    @media (max-width: 1600px) {
+        width: 300px;
     }
 }
 
@@ -92,6 +103,10 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
+    @media (max-width: 1600px) {
+        width: 100%;
+        height: 150px;
+    }
 }
 
 .card-content {
@@ -109,6 +124,10 @@
     color: #000000;
     line-height: 1.5;
     margin-bottom: 15px;
+    transition: .3s;
+    @media (max-width: 1600px) {
+        font-size: 0.8rem;
+    }
 }
 
 .card-button {
@@ -121,6 +140,10 @@
     padding: 10px 5px;
     border-radius: 5px;
     transition: background 0.3s;
+    @media (max-width: 1600px) {
+        width: 100px;
+        font-size: 0.8rem;
+    }
 }
 
 .card-content .card-button {

@@ -4,7 +4,13 @@
     height: auto;
     text-align: center;
     gap: 20px;
+    transition: .3s;
+    transition: .3s;
     @media (max-width: 768px) {
+        height: auto;
+        width: auto;
+    }
+    @media (max-width: 1600px) {
         height: auto;
         width: auto;
     }
@@ -13,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .3s;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,20 +40,31 @@
     background-color: #4494b1;
     height: 500px;
     width: 1400px;
+    transition: .3s;
     border-radius: 30px;
     @media (max-width: 768px) {
         height: auto;
         width: auto;
         padding: 20px;
     }
+    @media (max-width: 1600px) {
+        height: auto;
+        width: auto;
+        padding: 10px;
+    }
+    
 }
 
 .otherTitle h1 {
     font-size: 50px;
+    transition: .3s;
     color: #ffffff;
     @media (max-width: 768px) {
         font-size: 30px;
         width: auto;
+    }
+    @media (max-width: 1600px) {
+        font-size: 30px;
     }
 }
 
@@ -57,11 +75,16 @@
     font-size: 30px;
     border-radius: 30px;
     padding: 20px;
+    transition: .3s;
     color: white;
     @media (max-width: 768px) {
         width: auto;
         text-align: center;
         padding: 5px;
         font-size: 20px;
+    }
+    @media (max-width: 1600px) {
+        text-align: center;
+        font-size: 25px;
     }
 }
